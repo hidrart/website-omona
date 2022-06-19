@@ -6,6 +6,10 @@
 	--font-title: 'Playfair Display', serif;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 .bg-omona {
 	background-color: var(--color-primary);
 }
@@ -52,23 +56,7 @@
 }
 
 @media (max-width: 992px) {
-	#online-shop {
-		flex-wrap: nowrap !important;
-	}
-
 	#online-shop > img {
-		padding: 0 2em !important;
-	}
-
-	#location > div {
-		margin-bottom: 2em !important;
-	}
-
-	#contact {
-		flex-wrap: nowrap !important;
-	}
-
-	#contact > div > h4 {
-		font-size: 1.2em;
+		width: 20% !important;
 	}
 }
